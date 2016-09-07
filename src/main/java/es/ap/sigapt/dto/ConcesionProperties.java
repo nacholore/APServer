@@ -5,6 +5,7 @@ import es.ap.sigapt.dto.base.PropertiesImpl;
 public class ConcesionProperties extends PropertiesImpl {
 
 	private String description;
+	private String expediente;
 	private String titular;
 	private String code;
 	private String port;
@@ -19,6 +20,14 @@ public class ConcesionProperties extends PropertiesImpl {
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public String getExpediente() {
+		return expediente;
+	}
+
+	public void setExpediente(String expediente) {
+		this.expediente = expediente;
 	}
 
 	public String getTitular() {

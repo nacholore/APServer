@@ -40,6 +40,7 @@ public class DominioPublicoService {
 			tmp.getProperties().setTitular(temp.getTitular());
 			tmp.getProperties().setCode(temp.getCode());
 			tmp.getProperties().setPort(temp.getPort());
+			tmp.getProperties().setExpediente(temp.getExpediente());
 			tmp.setGeometry(temp.getGeometry());
 			result.add(tmp);
 		}
